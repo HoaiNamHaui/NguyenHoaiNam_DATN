@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    height: 64px;
+    background-color: #d70018;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: auto;
+    height: 34px;
+    padding-left: 20px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.header-item:hover {
+    background: hsla(0, 0%, 100%, .2);
+}
+
+.header-contact-icon {
+    font-size: 25px;
+    padding-right: 10px;
+}   
+
+.header-login {
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.header-login:hover {
+    background: hsla(0, 0%, 100%, .2);
+}

@@ -1,0 +1,18 @@
+.sidebar{
+    width: 200px;
+    height: calc(100vh - 64px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sidebar-item{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Notosans-SemiBold;
+}
+.sidebar-item:hover{
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    
+}
