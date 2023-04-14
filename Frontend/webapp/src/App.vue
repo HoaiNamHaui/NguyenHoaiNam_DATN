@@ -1,25 +1,26 @@
 <template>
 <div class="container">
-  <the-header />
+  <!-- <the-header />
   <div style="display: flex;">
     <the-sidebar />
     <the-content />
-  </div>
+  </div> -->
+  <customer-vue />
 </div>
-  
 </template>
 
 <script>
-import TheHeader from './components/layout/TheHeader.vue'
-import TheSidebar from './components/layout/TheSidebar.vue'
-import TheContent from './components/layout/TheContent.vue'
-
+import CustomerVue from './Customer.vue'
+// import TheHeader from './components/layout/TheHeader.vue'
+// import TheSidebar from './components/layout/TheSidebar.vue'
+// import TheContent from './components/layout/TheContent.vue'
 export default {
   name: 'App',
   components: {
-    TheHeader,
-    TheSidebar,
-    TheContent
+    // TheHeader,
+    // TheSidebar,
+    // TheContent
+    CustomerVue,
   }
 }
 </script>
