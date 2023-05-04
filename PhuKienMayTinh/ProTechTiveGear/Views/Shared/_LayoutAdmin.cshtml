@@ -29,7 +29,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-    <title>WEBSITE GAMING GEAR</title>
+    <title>HoaiNamShop</title>
 
 	<!-- Custom fonts for this template-->
 
@@ -53,23 +53,11 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Gaming Gear <sup>Store</sup></div>
+                <div class="sidebar-brand-text mx-3">HoaiNam<sup>Shop</sup></div>
             </a>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="@Url.Action("Index","Admin")">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Tổng Quan</span>
-                </a>
-            </li>
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Quản trị
-            </div>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#da" aria-expanded="true" aria-controls="da">
                     <i class="fas fa-fw fa-cube"></i>
@@ -101,38 +89,6 @@
                     </div>
                 </div>
             </li>
-            <!--  Banner Menu -->
-            <!--  Brand -->
-
-            @*<li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Mặt Hàng</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-
-                        <a class="collapse-item" href="@Url.Action("Index","Brands")">Danh sách</a>
-                    </div>
-                </div>
-            </li>*@
-            <!--  Trademark Menu -->
-            @*<li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#rr1" aria-expanded="true" aria-controls="rr1">
-                <i class="fas fa-fw fa-building"></i>
-                <span>
-                    Tin tức
-                </span>
-            </a>
-            <div id="rr1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-
-                    <a class="collapse-item" href="@Url.Action("Index","Blogs")">Danh sách</a>
-
-                </div>
-            </div>
-        </li>*@
-            <!--  Oder Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#rr2" aria-expanded="true" aria-controls="rr2">
                     <i class="fas fa-shopping-cart fa-building"></i>
@@ -170,21 +126,6 @@
                     </div>
                 </div>
             </li>
-            <!-- Nav Item - Charts -->
-            @*<li class="nav-item">
-                <a class="nav-link" href="@Url.Action("Index","Menus")">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Menu</span>
-                </a>
-            </li>*@
-            <li class="nav-item">
-                <a class="nav-link" href="@Url.Action("Index","Banners")">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Banner</span>
-                </a>
-            </li>
-            <!-- Nav Item - Tables -->
-            <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
@@ -222,7 +163,7 @@
 						<!-- Nav Item - User Information -->
 						<li class="nav-item dropdown no-arrow">
 							<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<span class="mr-2 d-none d-lg-inline text-gray-600 small">Quản tị viên</span><i class="fas fa-laugh-wink"></i>
+								<span class="mr-2 d-none d-lg-inline text-gray-600 small">Quản trị viên</span><i class="fas fa-laugh-wink"></i>
 								@*<img class="img-profile rounded-circle" src="http://hinhnendephd.com/wp-content/uploads/2019/10/anh-avatar-dep-250x320.jpg">*@
 							</a>
 							<!-- Dropdown - User Information -->
@@ -240,7 +181,9 @@
 				</nav>
 				<!-- End of Topbar -->
 				<!-- Begin Page Content -->
-				@RenderBody()
+                <div style="padding-left : 20px !important">
+                    @RenderBody()
+                </div>
 				<!-- Content Row -->
 				<!-- Content Row -->
 				<!-- /.container-fluid -->
@@ -249,7 +192,7 @@
 				<footer class="sticky-footer bg-white">
 					<div class="container my-auto">
 						<div class="copyright text-center my-auto">
-							<span>Code by :  &copy; Coder</span>
+							<span>Code by :  &copy; HoaiNamShop</span>
 						</div>
 					</div>
 				</footer>

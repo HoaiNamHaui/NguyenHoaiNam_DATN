@@ -1,0 +1,18 @@
+Web bán phụ kiện máy tính cơ bản sử dụng ASP .NET MVC + SQL Server + HTML CSS gồm các chức năng 
+Khách hàng : 
+Đăng ký
+Đăng nhập
+Đăng xuất
+Xem sản phẩm
+Xem sản phẩm theo danh mục
+Tìm kiếm sản phẩm
+Thêm sp vào giỏ hàng
+Cập nhập giỏ hàng
+Đặt hàng
+Thanh toán online qua MoMo
+Admin : 
+Đăng nhập
+Quản lý danh mục sản phẩm
+Quản lý sản phẩm
+Quản lý đơn hàng
+Quản lý khách hàng
